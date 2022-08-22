@@ -11,23 +11,23 @@
 <body>
     <div class="calculator">
         <div class="output" id="output"></div>
-        <div class="key zero">0</div>
-        <div class="key one">1</div>
-        <div class="key two">2</div>
-        <div class="key three">3</div>
-        <div class="key four">4</div>
-        <div class="key five">5</div>
-        <div class="key six">6</div>
-        <div class="key seven">7</div>
-        <div class="key eight">8</div>
-        <div class="key nine">9</div>
-        <div class="key plus">+</div>
-        <div class="key substract">-</div>
-        <div class="key multiply">x</div>
-        <div class="key divide">/</div>
-        <div class="key equal">=</div>
-        <div class="key delete" title="Back">D</div>
-        <div class="key clear" title="Clear">C</div>
+        <div class="key zero number" onclick="addKey(0)">0</div>
+        <div class="key one number" onclick="addKey(1)">1</div>
+        <div class="key two number" onclick="addKey(2)">2</div>
+        <div class="key three number" onclick="addKey(3)">3</div>
+        <div class="key four number" onclick="addKey(4)">4</div>
+        <div class="key five number" onclick="addKey(5)">5</div>
+        <div class="key six number" onclick="addKey(6)">6</div>
+        <div class="key seven number" onclick="addKey(7)">7</div>
+        <div class="key eight number" onclick="addKey(8)">8</div>
+        <div class="key nine number" onclick="addKey(9)">9</div>
+        <div class="key plus operation" onclick="addKey('+')">+</div>
+        <div class="key substract operation" onclick="addKey('-')">-</div>
+        <div class="key multiply operation" onclick="addKey('*')">x</div>
+        <div class="key divide operation" onclick="addKey('/')">/</div>
+        <div class="key equal operation" onclick="equal()">=</div>
+        <div class="key delete operation" title="Back" onclick="back()">D</div>
+        <div class="key clear operation" title="Clear" onclick="clearOutput()">C</div>
     </div>
 </body>
 </html>
